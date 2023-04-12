@@ -78,21 +78,7 @@ button {outline: none !important;}
    font-size: 14px;
    margin-bottom: 4px;
 } */
-@media screen and (max-width: 991px) {
-   .offcanvas-header{
-      background-color: #02001bc0;
-   }
-   .offcanvas-body{
-      background-color: #02001bc0;
-   }
- 
- }
-@media screen and (min-width: 992px) {
- 
-   .hide-pc{
-      visibility: hidden;
-   }
- }
+
 .imp-px-0{
    padding-right: 0% !important; 
    padding-left: 0% !important;
@@ -147,4 +133,20 @@ button {outline: none !important;}
        #f24645
      );
    box-shadow: 0 4px 15px 0 #000c09;
+ }
+
+@media screen and (max-width: 991px) {
+   .offcanvas-header{
+      background-color: #02001bc0;
+   }
+   .offcanvas-body{
+      background-color: #02001bc0;
+   }
+ 
+ }
+@media screen and (min-width: 992px) {
+ 
+   .hide-pc{
+      visibility: hidden;
+   }
  }
