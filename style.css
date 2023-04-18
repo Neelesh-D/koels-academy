@@ -1,0 +1,150 @@
+*{
+   margin: 0%;
+   padding: 0%; 
+   box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/* .bg-lwhite{
+   border-style: solid;
+   border-color: #befdff94;
+   border-width: 1px;
+} */
+
+/* .gradient{
+   color:  linear-gradient(112deg, #06B7DB -63.59%, #FF4ECD -20.3%, #0072F5 70.46%);
+} */
+.font-lg{
+   font-size: medium;
+}
+.font-merienda{
+   font-family: 'Merienda', cursive;
+}
+.font-comfortaa{
+   font-family: 'Comfortaa', cursive;
+}
+.font-modern{
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-mont{
+font-family: 'Montserrat', sans-serif;
+}
+
+.bg-pic{
+   background-image: url(intro-pic.jpg);
+ background-repeat: no-repeat;
+ width: 96%;
+
+}
+.offcanvas.offcanvas-end {
+   width: 80% !important;
+   border-left: var(--bs-offcanvas-border-width) solid #000 !important;
+}
+.navbar-toggler{
+   border-color: transparent !important;
+   padding: 0% !important;
+
+   
+}
+
+button {outline: none !important;}
+.welcome{
+   border: 1px solid rgb(25, 0, 66);
+   border-radius: 5px;
+
+}
+
+
+.offcanvas{
+   background-color: transparent !important;
+}
+/* .offcanvas-header{
+   background-color: #02001bc0;
+}
+.offcanvas-body{
+   background-color: #02001bc0;
+} */
+.font-sm{
+   font-size: 90%;
+   margin-bottom: 6px;
+}
+/* .font-m{
+   font-size: 14px;
+   margin-bottom: 4px;
+} */
+@media screen and (max-width: 991px) {
+   .offcanvas-header{
+      background-color: #02001bc0;
+   }
+   .offcanvas-body{
+      background-color: #02001bc0;
+   }
+ 
+ }
+@media screen and (min-width: 992px) {
+ 
+   .hide-pc{
+      visibility: hidden;
+   }
+ }
+.imp-px-0{
+   padding-right: 0% !important; 
+   padding-left: 0% !important;
+ }
+
+.bn632-hover {
+   width: 100%;
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+   cursor: pointer;
+   margin: 0px;
+   height: 40px;
+   text-align: center;
+   border: none;
+   background-size: 300% 100%;
+   border-radius: 0px;
+   -o-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+ }
+ 
+ .bn632-hover:hover {
+   background-position: 100% 0;
+   -moz-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+ }
+ 
+ .bn632-hover:focus {
+   outline: none;
+ }
+ 
+ .bn632-hover.bn24 {
+   background-image: linear-gradient(
+       to right,
+       #6253e1,
+       #852d91,
+       #a3a1ff,
+       #f24645
+     );
+  
+ }
+
+ .bn632-hover.bn25 {
+   background-image: linear-gradient(
+       to right,
+       #005a44,
+       #001a13,
+       #a3a1ff,
+       #f24645
+     );
+  
+ }
